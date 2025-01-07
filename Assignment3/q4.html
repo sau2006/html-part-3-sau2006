@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Schedule</title>
+
+</head>
+<body>
+    <h1>Flight Schedule</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <thead>
+            <tr>
+                <th>Flight Number</th>
+                <th>Destination</th>
+                <th>Departure Time</th>
+                <th>Arrival Time</th>
+                <th>Duration</th>
+                <th>Flight Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="on-time">
+                <td>AA101</td>
+                <td>New York (JFK)</td>
+                <td>08:00 AM</td>
+                <td>10:30 AM</td>
+                <td><abbr title="2 hours 30 minutes">2h 30m</abbr></td>
+                <td>On Time</td>
+            </tr>
+            <tr class="international delayed">
+                <td>BA203</td>
+                <td>London (LHR)</td>
+                <td>12:00 PM</td>
+                <td>06:00 PM</td>
+                <td><abbr title="7 hours">7h</abbr></td>
+                <td>Delayed</td>
+            </tr>
+            <tr class="cancelled">
+                <td>DL402</td>
+                <td>Chicago (ORD)</td>
+                <td>03:00 PM</td>
+                <td>05:00 PM</td>
+                <td><abbr title="2 hours">2h</abbr></td>
+                <td>Cancelled</td>
+            </tr>
+            <tr class="international on-time">
+                <td>AF530</td>
+                <td>Paris (CDG)</td>
+                <td>06:30 PM</td>
+                <td>09:00 AM (Next Day)</td>
+                <td><abbr title="8 hours 30 minutes">8h 30m</abbr></td>
+                <td>On Time</td>
+            </tr>
+            <tr class="on-time">
+                <td>UA610</td>
+                <td>San Francisco (SFO)</td>
+                <td>10:00 AM</td>
+                <td>12:30 PM</td>
+                <td><abbr title="2 hours 30 minutes">2h 30m</abbr></td>
+                <td>On Time</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
