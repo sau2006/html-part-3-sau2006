@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Report</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .highlight {
+            background-color: #ffeb3b;
+            font-weight: bold;
+        }
+        .footer {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sales Report</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Region</th>
+                <th>Salesperson</th>
+                <th>Product</th>
+                <th>Quantity Sold</th>
+                <th>Unit Price ($)</th>
+                <th>Total Sales ($)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>North</td>
+                <td>Taylor</td>
+                <td>Laptop</td>
+                <td>50</td>
+                <td>800</td>
+                <td>40000</td>
+            </tr>
+            <tr>
+                <td>East</td>
+                <td> Lee</td>
+                <td>Headphones</td>
+                <td>200</td>
+                <td>150</td>
+                <td>30000</td>
+            </tr>
+            <tr class="highlight">
+                <td>West</td>
+                <td>Amy </td>
+                <td>Tablet</td>
+                <td>120</td>
+                <td>400</td>
+                <td>48000</td>
+            </tr>
+            <tr>
+                <td>South</td>
+                <td>Chris </td>
+                <td>Camera</td>
+                <td>60</td>
+                <td>500</td>
+                <td>30000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr class="footer">
+                <td colspan="5">Grand Total</td>
+                <td>254000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
